@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/* main- It prints out the size of char, int, long int, long long int, and float
+ * Returns 0 if it runs completely.
+ */
 int main(void) 
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
