@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * Main- prints out "\"with propre grammar, but the outcome is a piece of art"
- * Returns 0 if it runs properly
+ * main- prints out "\"with propre grammar, but the outcome is a piece of art"
+ * Return: 0 if it runs properly
  */
 int main(void)
 {
