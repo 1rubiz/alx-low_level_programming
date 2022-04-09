@@ -3,7 +3,7 @@
 #include <stdio.h>
 /* more headers goes there */
 /**
- * main- prints strings relating to logical 
+ * main- prints strings relating to logical
  * expressions.
  * Return: 0 for success.
  */
