@@ -1,6 +1,6 @@
 #include <stdio.h>
-/** 
- * main all lower case alphabets without e qnd q.
+/**
+ * main- all lower case alphabets without e qnd q.
  * Return: 0 if successful.
  */
 
