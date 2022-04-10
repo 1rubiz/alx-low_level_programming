@@ -1,9 +1,9 @@
 #include <stdio.h>
-/**
- * main- prints all alphabet in lower case
- * except q and e.
+/** 
+ * main all lower case alphabets without e qnd q.
  * Return: 0 if successful.
  */
+
 int main(void)
 {
 	char az = 'a';
@@ -12,9 +12,9 @@ int main(void)
 	{
 		if (az != 'e' && az != 'q')
 		{
-		       putchar(az);
+			putchar(az);
 		}
-		az++;
+		az++
 	}
 	putchar('\n');
 	return (0);
