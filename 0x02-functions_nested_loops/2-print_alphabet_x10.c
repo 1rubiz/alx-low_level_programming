@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main- prints the alphabets ten times on
+ * print_alphabet_x10- prints the alphabets ten times on
  * different lines followed by a new line
  * Return: 0 if successful
  */
@@ -16,9 +16,8 @@ void print_alphabet_x10(void)
 	{
 		for (x = 'a'; x <= 'z'; x++)
 		{
-			putchar(x);
+			printf("%c", x);
 		}
 		putchar('\n');
 	}
-	printf("\n");
 }
