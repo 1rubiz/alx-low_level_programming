@@ -5,7 +5,7 @@
 /**
  * _islower- returns 1 is the value is lower case
  * and 0 if it is not.
- * @c - alphabet to be checked
+ * @c: alphabet to be checked
  *
  * Description: nothing to describe here
  * self explanatory.
