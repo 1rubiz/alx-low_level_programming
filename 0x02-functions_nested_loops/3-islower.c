@@ -7,6 +7,8 @@
  * and 0 if it is not.
  * @c - alphabet to be checked
  *
+ * Description: nothing to describe here
+ * self explanatory.
  * Return: 1 if lowercase and 0 if not
  */
 int _islower(int c);
