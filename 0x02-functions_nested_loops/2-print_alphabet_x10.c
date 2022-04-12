@@ -8,9 +8,10 @@
 
 void print_alphabet_x10(void);
 
-void print_alphabet_x10()
+void print_alphabet_x10(void)
 {
 	int x, y;
+
 	for (y = 0; y < 10; y++)
 	{
 		for (x = 'a'; x <= 'z'; x++)
@@ -20,5 +21,4 @@ void print_alphabet_x10()
 		putchar('\n');
 	}
 	printf("\n");
-	return (0);
 }
