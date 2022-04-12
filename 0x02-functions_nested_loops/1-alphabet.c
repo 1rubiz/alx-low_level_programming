@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main- prints all alphabets in lower case
  * Return: 0 if successful
