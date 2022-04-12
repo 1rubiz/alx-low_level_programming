@@ -6,6 +6,7 @@
  * _islower- returns 1 is the value is lower case
  * and 0 if it is not.
  * @c - alphabet to be checked
+ *
  * Return: 1 if lowercase and 0 if not
  */
 int _islower(int c);
