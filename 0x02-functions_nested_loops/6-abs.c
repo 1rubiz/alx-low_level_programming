@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
+#include <math.h>
 /**
  * _abs- prints the absolute of the argument
  * @int: parameter
@@ -9,8 +10,8 @@
  */
 int _abs(int);
 
-int _abs(int x)
+int _abs(int)
 {
 	int abs(int x);
-	return (0);
+	return (x);
 }
