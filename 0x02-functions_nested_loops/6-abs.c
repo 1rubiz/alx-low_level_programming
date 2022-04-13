@@ -10,8 +10,8 @@
  */
 int _abs(int);
 
-int _abs(int x)
+int _abs()
 {
-	int abs();
+	int abs(int x);
 	return (0);
 }
