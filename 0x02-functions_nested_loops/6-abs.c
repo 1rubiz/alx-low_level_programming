@@ -10,7 +10,7 @@
  */
 int _abs(int);
 
-int _abs()
+int _abs(int)
 {
 	int abs(int x);
 	return (0);
