@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include "main.h"
 /**
  * print_sign- prints + if n>0, prints
  * 0 if n=0 and prints - if n <0.
