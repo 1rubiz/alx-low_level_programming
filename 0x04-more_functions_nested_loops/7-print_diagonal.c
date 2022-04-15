@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -12,6 +12,7 @@
 void print_diagonal(int n)
 {
 	int x = '\';
+
 	int y, z;
 
 	for (y = 0; y < n; y++)
@@ -19,9 +20,9 @@ void print_diagonal(int n)
 		for (z = 0; z < y; z++)
 		{
 			_putchar(' ');
-			_putchar(x);
-			_putchar('\n');
 		}
+		_putchar(x);
+		_putchar('\n');
 	}
 	if (n <= 0)
 	{
