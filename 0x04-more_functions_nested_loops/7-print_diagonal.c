@@ -11,7 +11,7 @@
 
 void print_diagonal(int n)
 {
-	int x = '\';
+	int x = '\\';
 
 	int y, z;
 
