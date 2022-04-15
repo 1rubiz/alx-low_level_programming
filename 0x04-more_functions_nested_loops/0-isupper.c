@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * _isupper - returns 1 if it is uppercase
+ * else 0.
+ * @c: parameter.
+ *
+ * Return: void.
+ */
+
+int _isupper(int c);
+
+int _isupper(int c)
+{
+	if (int isupper(c))
+		return (1);
+
+		return (0);
+}
+
