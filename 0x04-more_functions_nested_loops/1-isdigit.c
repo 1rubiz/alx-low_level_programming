@@ -2,23 +2,19 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * isdigit- checks if the number is between 0-9
+ * _isdigit- checks if the number is between 0-9
  * @c: parameter
  *
- * Description: number checker
- * arghhhhhhhhh
+ * Description: Number checker or something like that
+ *
  * Return: void
  */
-
-int _isdigit(int c);
 
 int _isdigit(int c)
 {
 	if (c >= 48 && c <= 58)
-	{
+
 		return (1);
-	} else
-	{
-		return (0);
-	}
+
+	return (0);
 }
