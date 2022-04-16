@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main- prints 1-100 but prints Fizz if the number
