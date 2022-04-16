@@ -10,11 +10,11 @@ int main(void)
 {
 	long int a, b, c, n;
 
-	a = 1;
+	b = 1;
 
-	b = 2;
+	c = 2;
 
-	for (c = 1; c <= 50; ++c)
+	for (a = 1; a <= 50; ++a)
 	{
 		if (b != 20365011074)
 		{
