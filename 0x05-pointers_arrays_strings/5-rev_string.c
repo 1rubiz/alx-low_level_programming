@@ -21,6 +21,6 @@ void rev_string(char *s)
 	}
 	for (i = j - 1; i >= 0; i++)
 	{
-		return (*(s + i));
+		return (*s);
 	}
 }
