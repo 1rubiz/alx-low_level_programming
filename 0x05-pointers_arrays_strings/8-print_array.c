@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_array - prints the requested number items 
+ * print_array - prints the requested number items
  * from an array
  * @a: parameter 1
  * @n: parameter 2
@@ -16,9 +16,11 @@ void print_array(int *a, int n)
 
 	for (x = 0; x <= n; x++)
 	{
-		putchar(a[x]);
-		putchar(',');
-		putchar(' ');
+		printf("%d", a[x]);
+		if (x != (n - 1))
+		{
+			putchar(',');
+		}
 	}
 	putchar('\n');
 }
