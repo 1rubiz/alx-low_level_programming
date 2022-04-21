@@ -10,15 +10,16 @@
 
 int main(void)
 {
-	int i, ramdomer;
-
-	srand((unsigned int)(time(NULL)));
+	unsigned int long i;
+	int randomer;
 
 	char lowAlpha[] = "qwertyuiopasdfghjklzxcvbnm";
 	char highAlpha[] = "QWERTYUIOPASDFGHJKLZXCVBNM";
 	char num[] = "0123456789";
 	char sym[] = "!@#$%^&*()~|?<";
 	char password[12];
+
+	srand((unsigned int)(time(NULL)));
 
 	randomer = rand() % 4;
 
