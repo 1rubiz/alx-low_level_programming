@@ -14,23 +14,24 @@ void print_array(int *a, int n)
 {
 	int x;
 
-	if (n < 0)
+	if (n < a[n])
 	{
-		n *= 0;
-	}
-
-	for (x = 0; x <= n; x++)
+		putchar(' ');
+	} else
 	{
-		printf("%d", a[x]);
-		if (x == (n - 1))
+		for (x = 0; x <= n; x++)
 		{
-			break;
-			putchar('\n');
-		}
-		else
-		{
-			putchar(',');
-			putchar(' ');
+			printf("%d", a[x]);
+			if (x == (n - 1))
+			{
+				break;
+				putchar('\n');
+			}
+			else
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
