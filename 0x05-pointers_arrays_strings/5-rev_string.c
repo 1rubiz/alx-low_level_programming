@@ -12,16 +12,22 @@
 
 void rev_string(char *s)
 {
-	int i;
-	int j = 0;
+	int i, max, half;
+	char first, last;
 
-	for (i = 0; *(s + i) != '\0'; i++)
+	i = 0;
+	while (s[i] != '\0')
 	{
-		j++;
+		i++;
 	}
-	for (i = j - 1; i >= 0; i++)
+	max = i - 1;
+	half = max / 2;
+	while (half >= 0)
 	{
-		printf("%c", *(s + i));
+		first = s[max - half];
+		last = s[half];
+		s[half] = first;
+		s[max - half] = last;
+		half--;
 	}
-	putchar('\n');
 }
