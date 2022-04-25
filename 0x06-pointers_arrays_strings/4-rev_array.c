@@ -10,18 +10,15 @@
 
 void reverse_array(int *a, int n)
 {
-	int i;
-	int n = sizeof(a) / sizeof(*a);
+	int x, y, z;
 
-	for (i = (n - 1); i >= 0; i--)
+	for (x = 0; x < n; x++)
 	{
-		_putchar(a[i]);
-
-		if (i > 0)
+		for (y = (i + 1); y > 0; y++)
 		{
-			_putchar(',');
-			_putchar(' ');
+			z =  *(a + y);
+			*(a + y) = *(a + (y - 1));
+			*(a + (y - 1)) = z;
 		}
 	}
-	_putchar('\n');
 }
