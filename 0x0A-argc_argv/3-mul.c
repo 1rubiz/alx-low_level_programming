@@ -11,6 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int a, b, result;
+	result = a * b;
 
 	a = atoi(argv[1]);
 	b = atoi(argv[2]);
@@ -20,7 +21,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	result = a * b;
 	printf("%d\n", result);
 	return (0);
 }
