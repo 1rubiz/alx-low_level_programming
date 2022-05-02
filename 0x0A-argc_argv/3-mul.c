@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - multiplies two
@@ -8,7 +9,7 @@
  * Return: 0 if successful
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	if (argc != 3)
 	{
