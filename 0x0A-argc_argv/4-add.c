@@ -19,14 +19,12 @@ int main(int argc, char *argv)
 	{
 		putchar('0');
 	}
-	if (isdigit(a) == false || isdigit(b) == false)
+	if (!isdigit(a) || !isdigit(b))
 	{
 		printf("Error\n");
 		return (0);
-	} else
-	{
-		result = a + b;
-		printf("%d\n", result);
 	}
+	result = a + b;
+	printf("%d\n", result);
 	return (0);
 }
