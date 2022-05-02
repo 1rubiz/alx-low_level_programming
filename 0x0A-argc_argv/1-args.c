@@ -18,7 +18,6 @@ int main(int argc, char *argv[])
 	{
 		j += i;
 	}
-	putchar(j);
-	putchar('\n');
+	printf("%d\n", j);
 	return (0);
 }

@@ -26,7 +26,7 @@ int main(int argc, char *argv)
 	} else
 	{
 		result = a + b;
-		printf("%d\n", result)
+		printf("%d\n", result);
 	}
 	return (0);
 }

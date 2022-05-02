@@ -24,5 +24,5 @@ int main(int argc, char *argv[])
 		result = a * b;
 		printf("%d\n", result);
 	}
-	result (0);
+	return (0);
 }
