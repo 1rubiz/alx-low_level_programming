@@ -10,14 +10,8 @@
  * Return: 0 if successful
  */
 
-int main(int argc, char *argv[]__attribute__((unused)))
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int i, j = 0;
-
-	 for (i = 0; i < argc; i++)
-	 {
-		 j += i;
-	 }
-	printf("%d\n", j);
+	printf("%d\n", argc - 1);
 	return (0);
 }
