@@ -1,5 +1,6 @@
-#include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 /**
  * main - prints the addition of two arguments.
  * @argc: argument counter
@@ -8,23 +9,25 @@
  * Return: 0 if successful
  */
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
-	int a, b, result;
-
-	a = atoi(argv[1]);
-	a = atoi(argv[2]);
-
-	if (argc < 2)
+	int a, j ,result = 0;
+	for (a = 1; a < argc; a++)
+{
+         int value = atoi(argv[a]);
+	if (argc == 1)
 	{
 		putchar('0');
+                putchar('\n');
 	}
-	if (!isdigit(a) || !isdigit(b))
-	{
-		printf("Error\n");
-		return (0);
-	}
-	result = a + b;
-	printf("%d\n", result);
+        for (j = 0; argv[a][j] != '\0'; j++)
+{
+	if (!isdigit(argv[a][j]))
+{		printf("Error\n");
+		return (1);
+}}
+         result += value;
+}
+         printf("%d\n", result);
 	return (0);
 }
