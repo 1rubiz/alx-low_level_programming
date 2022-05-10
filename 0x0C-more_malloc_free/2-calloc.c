@@ -41,6 +41,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	_memnset(p, 0, (nmemb * size));
+	_memnset(ptr, 0, (nmemb * size));
 	return (ptr);
 }

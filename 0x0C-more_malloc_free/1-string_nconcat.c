@@ -34,20 +34,20 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		n = len2;
 	}
-	p = malloc((len1 + n + 1) * sizeof(char));
+	ptr = malloc((len1 + n + 1) * sizeof(char));
 
-	if (p == NULL)
+	if (ptr == NULL)
 	{
 		return (0);
 	}
 	for (i = 0; i < len1; i++)
 	{
-		p[i] = s1[i];
+		ptr[i] = s1[i];
 	}
 	for (; i < (len1 + n); i++)
 	{
-		p[i] = s2[i - len1];
+		ptr[i] = s2[i - len1];
 	}
-	p[i] = '\0';
-	return (p);
+	ptr[i] = '\0';
+	return (ptr);
 }
