@@ -1,4 +1,4 @@
-#include "list.h"
+#include "main.h"
 
 /**
  * print_binary - A function that prints a binary number without % or /

@@ -1,4 +1,4 @@
-#include "list.h"
+#include "main.h"
 
 /**
  * get_bit - A function that gets a bit at index
